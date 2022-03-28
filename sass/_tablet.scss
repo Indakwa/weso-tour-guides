@@ -1,0 +1,223 @@
+@media only screen and (min-width: 698px) and (max-width: 899px){
+    .myHeader{
+        transform: scale(.7);
+    }
+    .home{
+        min-height: 360px;
+        justify-content: flex-start;
+    
+        .inner-1{
+            transform: scale(1.02);
+
+            #circle-2{
+                bottom: 31%;
+                left: 1.5%;
+                height: 8.125vw;
+                width: 8.125vw;
+            }
+            #circle-3{
+                bottom: 1.5vw;
+                left: 37%;
+            }
+        }
+    
+        .inner-2{
+            transform: scale(.9);
+            width: 70%;
+            padding-right: 0.5rem;
+            //margin-left: -4vw;
+
+        
+                .inner-text{
+                    top: 20%;
+
+                    h2{
+                        font-size: 3rem;
+                    }
+                    h3{
+                        font-size: 2.2rem;
+                    }
+                    p{
+                        font-size: 1rem;
+                        font-weight: 500;
+                    }
+                    #to-cv{
+                        display: inline-block;
+                        padding: .5rem 1rem;
+                        border-radius: 5px;
+                        background: #fff;
+                        font-family: $mont;
+                        text-decoration: none;
+                        margin-top: 1rem;
+                        font-weight: 900;
+                        transition: .5s ease;
+                        font-size: .8rem;
+        
+                        &:hover{
+                            color: $bright;
+                            background: $blue;
+                            transform: scale(.9);
+                        }
+                    }
+                }
+        }
+    }
+
+    .about{
+        margin-top: 3rem;
+    
+        h4{
+            font-size: 2rem;
+        }
+    
+        p{
+            font-size: 1rem;
+            line-height: 1.6rem;
+        }
+    }
+
+    .top-destination{
+        margin-top: 6rem;
+    
+        h4{
+            font-size: 3rem;
+        }
+    
+        .inner-section{
+    
+            .img-div{
+                
+    
+                img{
+                    height: 17.5vw;
+                    width: 17.5vw;
+                }
+                .overlay{
+                    height: 17.5vw;
+                    width: 17.5vw;
+                }
+                p{
+                    font-size: 1.3rem;
+                }
+                #kilifi{
+                    left: 29%;
+                }
+                #lamu{
+                    left: 24%;
+                }
+                #mombasa{
+                    left: 7.5%;
+                }
+    
+            }
+        }
+    }
+
+    .gallery{
+        transform: scale(.9);
+        margin-top: 0rem;
+
+        h4{
+            font-size: 2.4rem;
+            margin-bottom: 2rem;
+        }
+        
+    .container{
+
+        .image-div{
+            margin-bottom: 3rem;
+
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+    }
+
+    .awards{
+        margin-top: 0rem;
+    
+        h4{
+            font-size: 3rem;
+        }
+    
+        .cards{
+            width: 100%;
+    
+            .card{
+                cursor: pointer;
+                width: 28vw;
+                max-width: 28vw;
+                min-height: 30vw;
+                margin-bottom: 4rem;
+    
+                 i{
+                     display: block;
+                     font-size: 4rem;
+                     margin: 3rem 0 1rem 0;
+                 }
+                 p{
+                     font-family: $mont;
+                     font-size: 1.5rem;
+                 }
+                 .one-line{
+                     margin-top: 2rem;
+                 }
+            }
+        }
+    }
+
+    .testimonials{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    
+        h4{
+            font-size: 3rem;
+            letter-spacing: 2px;
+            font-family: $play;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin-bottom: 2rem;
+        }
+        
+        .clients{
+    
+            .client{
+                display: flex;
+                margin-bottom: 3rem;
+    
+                 .avatar{
+    
+                    img{
+                        //height: 200px;
+                        border-radius: 50%;
+                    }
+                 }
+                 .text{
+                    font-family: $mont;
+                    padding: 1rem;
+        
+                    .name{
+                        font-weight: bolder;
+                        font-size: .8rem;
+                        text-transform: capitalize;
+                        margin-bottom: .5rem;
+                    }
+                    .txt{
+                        font-size: 1rem;
+                        font-weight: 500;
+                    }
+                }  
+            }
+    
+        }
+    }
+
+    .contact{
+        margin-top: 6rem;
+        margin-bottom: 8rem;
+        transform: scale(.9);
+    }
+
+}

@@ -1,0 +1,61 @@
+@media only screen and (min-width: 1401px) and (max-width: 1500px){
+    .myHeader{
+        transform: scale(.8);
+    }
+
+    .home{
+    
+        .inner-1{
+            transform: scale(1);
+
+            #circle-2{
+                bottom: 24%;
+                left: 1%;
+                height: 8.125vw;
+                width: 8.125vw;
+            }
+            #circle-3{
+                bottom: 1vw;
+                left: 37%;
+            }
+        }
+    
+        .inner-2{
+            transform: scale(.9);
+            width: 60%;
+
+        
+                .inner-text{
+                    top: 38%;
+                }
+        }
+    }
+
+    .about{
+        margin-top: 8rem;
+        transform: scale(.9);
+    }
+
+    .top-destination{
+        margin-top: 7rem;
+        transform: scale(.9);
+    }
+
+    .gallery{
+        transform: scale(.9);
+    }
+
+    .awards{
+        margin-top: 1rem;
+        transform: scale(.9);
+    }
+
+    .testimonials{
+        margin-top: 1rem;
+        transform: scale(.9);
+    }
+
+    .contact{
+        transform: scale(.9);
+    }
+}

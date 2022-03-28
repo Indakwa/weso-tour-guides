@@ -1,0 +1,50 @@
+.testimonials{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 8rem;
+
+    h4{
+        font-size: 4rem;
+        letter-spacing: 2px;
+        font-family: $play;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-bottom: 4rem;
+    }
+    
+    .clients{
+
+        .client{
+            display: flex;
+            margin-bottom: 3rem;
+
+             .avatar{
+
+                img{
+                    height: 12.5vw;
+                    border-radius: 50%;
+                }
+             }
+             .text{
+                font-family: $mont;
+                padding: 1rem 2rem 2rem 1rem;
+    
+                .name{
+                    font-weight: bolder;
+                    font-size: 1rem;
+                    text-transform: capitalize;
+                    margin-bottom: .5rem;
+
+                    i{
+                        color: $blue;
+                    }
+                }
+                .txt{
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                }
+            }  
+        }
+
+    }
+}
